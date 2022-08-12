@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.listen(5001, () => console.log("this bitch works"));
+app.listen(5001, () => console.log("this stuff works"));
 
 
 app.get("/", (req, res) => res.status(200).send(data));
